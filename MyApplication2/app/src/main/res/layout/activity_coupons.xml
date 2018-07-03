@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout
+    tools:context="com.example.abusalameh.myapplication.couponpak.Coupons"
+    android:background="@drawable/cuopbg"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:textSize="22sp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="7dp" android:text="Coupons"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/textGrid"
+        android:layout_alignParentRight="true" />
+
+
+    <ListView
+        android:background="#CCCCCC"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/itemsview"/>
+
+</LinearLayout>
